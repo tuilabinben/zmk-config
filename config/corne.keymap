@@ -76,8 +76,44 @@
                                                         &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                         sensor-bindings = <
-                                &inc_dec_kp C_VOL_UP C_VOL_DN 
+                                &inc_dec_kp C_VOL_UP C_VOL_DN
                                 &inc_dec_kp PG_UP PG_DN
+                        >;
+                };
+
+                blank_1 {
+                                // -----------------------------------------------------------------------------------------
+                                // Blank layer - edit in ZMK Studio
+                                // -----------------------------------------------------------------------------------------
+                        bindings = <
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                                &trans &trans &trans   &trans &trans &trans
+                        >;
+                };
+
+                blank_2 {
+                                // -----------------------------------------------------------------------------------------
+                                // Blank layer - edit in ZMK Studio
+                                // -----------------------------------------------------------------------------------------
+                        bindings = <
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                                &trans &trans &trans   &trans &trans &trans
+                        >;
+                };
+
+                blank_3 {
+                                // -----------------------------------------------------------------------------------------
+                                // Blank layer - edit in ZMK Studio
+                                // -----------------------------------------------------------------------------------------
+                        bindings = <
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+                                                &trans &trans &trans   &trans &trans &trans
                         >;
                 };
         };
